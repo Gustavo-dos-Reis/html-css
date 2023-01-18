@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+main {
+  text-align: center;
+}
+
+ul{
+  margin:auto;
+  width: 416px;
+  height: 238px;
+  columns: 2;
+}
+
+ul img {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  width: 201px;
+  margin: 0%;
+}
+
+a {
+  margin: auto;
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+ 
+div.voltar{
+  display: block;
+  width: auto;
+  margin-top: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}

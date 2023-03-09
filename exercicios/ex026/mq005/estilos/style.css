@@ -12,7 +12,7 @@ body, html {
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(148, 148, 148);
 }
 
 header, h1 {
@@ -20,18 +20,20 @@ header, h1 {
     text-align: center;
 }
 
-span {
+i#burger {
     background-color: rgb(48, 48, 48);
     color: white;
-    display: center;
+    display: block;
+    text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
-span:hover {
+i#burger:hover {
     background-color: white;
     color: black;
 }
+
 menu {
     display: none;
 }
@@ -50,6 +52,10 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
+   background-color: gray;
+}
+
+main {
     width: 90vw;
     background-color: white;
     margin: auto;
